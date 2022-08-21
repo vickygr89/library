@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" type="text/css" rel="stylesheet">
+    <title>Library</title>
+</head>
+<body>
+    <h1>Book Library</h1>
+
+    <div class="main">
+      <button id="dataButton" type="button" name="button">START</button>
+      <button id="showButton" type="button" name="button">SHOW</button>
+      <button onclick="myDeleteFunction()">DELETE</button>
+    </div>
+
+    <hr />
+
+    <table>
+      <thead>
+        <tr id="headData">
+          <th>MOVIE</th>
+          <th>AUTHOR</th>
+          <th>PAGES</th>
+          <th>READ</th>
+        </tr>
+      </thead>
+      <tbody id="tableData"></tbody>
+    </table>
+    <script src="scripts.js"></script>
+
+</body>
+</html>
